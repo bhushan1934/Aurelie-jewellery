@@ -1,0 +1,12 @@
+/* The original pages ship their own full stylesheets (inline <style> blocks
+   and assets/aurelie.css). We only neutralise the browser/Next defaults on the
+   wrappers so those page styles render exactly as designed. */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.raw-page {
+  display: contents;
+}
